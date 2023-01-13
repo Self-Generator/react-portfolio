@@ -17,7 +17,9 @@ export const Portfolio = () => {
         <div>
             {/*==================== PORTFOLIO ====================*/}
             <section className="portfolio section" id="portfolio">
-                <h2 className="section__title">Portfolio</h2>
+                <a href="#portfolio">
+                    <h2 className="section__title">Portfolio</h2>
+                </a>
                 <span className="section__subtitle">Most Recent Work</span>
                 <div className="portfolio__container container swiper-container">
 
@@ -38,19 +40,19 @@ export const Portfolio = () => {
                                             <h3 className="portfolio__title">{project.name}</h3>
                                             <p className="portfolio__description">{project.description}</p>
                                             {
-                                                project.demo == "null" ?
+                                                project.demo === "null" ?
                                                     null
                                                     :
-                                                    <a href={project.demo} target="_blank" className="button button--flex button--small portfolio__button" style={{ 'marginRight': '10px' }}>
+                                                    <a rel="noreferrer" href={project.demo} target="_blank" className="button button--flex button--small portfolio__button" style={{ 'marginRight': '10px' }}>
                                                         Demo
                                                         <i className="uil uil-arrow-right button__icon" />
                                                     </a>
                                             }
                                             {
-                                                project.github == "null" ?
+                                                project.github === "null" ?
                                                     null
                                                     :
-                                                    <a href={project.github} target="_blank" className="button button--flex button--small portfolio__button github">
+                                                    <a rel="noreferrer" href={project.github} target="_blank" className="button button--flex button--small portfolio__button github">
                                                         Github
                                                         <i className="uil uil-arrow-right button__icon" />
                                                     </a>

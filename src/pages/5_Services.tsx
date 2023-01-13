@@ -28,7 +28,9 @@ export const Services = () => {
         <div>
             {/*==================== SERVICES ====================*/}
             <section className="services section" id="services">
-                <h2 className="section__title">Services</h2>
+                <a href="#services">
+                    <h2 className="section__title">Services</h2>
+                </a>
                 <span className="section__subtitle">What I offer</span>
 
                 <div className="services__container container grid">
@@ -41,26 +43,6 @@ export const Services = () => {
                                         <div>
                                             <i className={service.icon} />
                                             <h3 className="services__title">{service.name}</h3>
-                                            <span className="button button--flex button--small button--link services__button">
-                                                View More
-                                                <i className="uil uil-arrow-right button__icon" />
-                                            </span>
-                                            <div className="services__modal">
-                                                <div className="services__modal-content">
-                                                    <h4 className="services__modal-title">{service.name}</h4>
-                                                    <i className="uil uil-times services__modal-close" />
-                                                    <ul className="services__modal-services grid">
-                                                        {
-                                                            service.description.map((desc, index) =>
-                                                                <li className="services__modal-service">
-                                                                    <i className="uil uil-check-circle services__modal-icon" />
-                                                                    <p>{desc.name}</p>
-                                                                </li>
-                                                            )
-                                                        }
-                                                    </ul>
-                                                </div>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>

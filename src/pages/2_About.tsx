@@ -3,7 +3,9 @@ import { COMPANIES, DETAILED, EXPERIENCE, PROJECTS, RESUME } from "../config/Con
 export const About = () => {
     return (
         <section className="about section" id="about">
-            <h1 className="section__title"> About Me</h1>
+            <a href="#about">
+                <h1 className="section__title"> About Me</h1>
+            </a>
             <span className="section__subtitle">My introduction</span>
             <div className="about__container container grid">
                 <img src={require('../config/assets/images/about.png')} className="about__img" alt="about" />

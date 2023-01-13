@@ -5,7 +5,9 @@ export const Contact = () => {
         <div>
             {/*==================== CONTACT ME ====================*/}
             <section className="contact section" id="contact">
-                <h2 className="section__title">Contact Me</h2>
+                <a href="#contact">
+                    <h2 className="section__title">Contact Me</h2>
+                </a>
                 <span className="section__subtitle">Get in touch</span>
                 <div className="contact__container container grid">
                     <div>
@@ -51,7 +53,7 @@ export const Contact = () => {
                                 <textarea cols={0} rows={7} id="message-contact" className="contact__input" defaultValue={""} />
                             </div>
                             <div>
-                                <a href="#" className="move_i button button--flex">
+                                <a href="#contact" className="move_i button button--flex">
                                     Send Message
                                     <i className="uil uil-message button__icon" />
                                 </a>

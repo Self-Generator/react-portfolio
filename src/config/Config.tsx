@@ -37,22 +37,22 @@ export const RESUME = "./assets/pdf/Resume.pdf";
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // 3. Social Media Links
 // Github username
-export const GITHUB = "pratikkabade";
+export const GITHUB = "janedoe";
 
 // Stackoverflow URL
-export const STACKOVERFLOW = "https://stackoverflow.com/users/18698830/John-Doe";
+export const STACKOVERFLOW = "https://stackoverflow.com/users/18698830/jane-Doe";
 
 // LinkedIn username
-export const LINKEDIN = "johndoe";
+export const LINKEDIN = "janedoe";
 
 // Twitter username
-export const TWITTER = "johndoe";
+export const TWITTER = "janedoe";
 
 // Facebook username
-export const FACEBOOK = "johndoe";
+export const FACEBOOK = "janedoe";
 
 // Instagram username
-export const INSTAGRAM = "johndoe";
+export const INSTAGRAM = "janedoe";
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -273,7 +273,7 @@ export const HIRE = true
 export const PHONE = "+1 300 0000";
 
 // Email
-export const EMAIL = "pratik.kabade@outlook.com";
+export const EMAIL = "jane.doe@outlook.com";
 
 // Address
 export const ADDRESS = "India";

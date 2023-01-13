@@ -1,6 +1,11 @@
 .github {
-    color: #fff;
-    background-color: black !important;
+    color: var(--text-color);
+    background-color: var(--first-color-second);
+}
+
+.github:hover {
+    background-color: var(--first-color-second);
+    filter: brightness(1.2);
 }
 
 main {
@@ -11,8 +16,8 @@ main {
     margin-bottom: 20px !important;
 }
 
-.skills__header {
-    margin-top: 60px !important;
+.skill_div {
+    margin-bottom: 60px !important;
 }
 
 .portfolio__content {

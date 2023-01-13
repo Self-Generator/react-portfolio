@@ -24,20 +24,20 @@ export const Footer = () => {
 
                     <div className="footer__socials">
                         {
-                            FACEBOOK.length == 0 ||
-                            <a href={"https://www.facebook.com/" + FACEBOOK} className="footer__social" target="_blank">
+                            FACEBOOK.length === 0 ||
+                            <a rel="noreferrer" href={"https://www.facebook.com/" + FACEBOOK} className="footer__social" target="_blank">
                                 <i className="uil uil-facebook-f" />
                             </a>
                         }
                         {
-                            INSTAGRAM.length == 0 ||
-                            <a href={"https://www.instagram.com/" + INSTAGRAM} target="_blank" className="footer__social">
+                            INSTAGRAM.length === 0 ||
+                            <a rel="noreferrer" href={"https://www.instagram.com/" + INSTAGRAM} target="_blank" className="footer__social">
                                 <i className="uil uil-instagram" />
                             </a>
                         }
                         {
-                            LINKEDIN.length == 0 ||
-                            <a href={"https://www.linkedin.com/in/" + LINKEDIN} target="_blank" className="footer__social">
+                            LINKEDIN.length === 0 ||
+                            <a rel="noreferrer" href={"https://www.linkedin.com/in/" + LINKEDIN} target="_blank" className="footer__social">
                                 <i className="uil uil-linkedin-alt" />
                             </a>
                         }

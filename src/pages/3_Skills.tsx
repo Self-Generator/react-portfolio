@@ -5,13 +5,15 @@ export const Skills = () => {
         <div>
             {/*==================== SKILLS ====================*/}
             <section className="skills section" id="skills">
-                <h2 className="section__title">Skills</h2>
+                <a href="#skills">
+                    <h2 className="section__title">Skills</h2>
+                </a>
                 <span className="section__subtitle">My technical level</span>
                 <div className="skills__container container grid">
                     <div>
                         {
                             SKILLS.map((SubSkill, index) => (
-                                <div key={index}>
+                                <div key={index} className="skill_div">
                                     <div className="skills__header">
                                         <i className="uil uil-brackets-curly skills__icon" />
                                         <div>
@@ -28,11 +30,11 @@ export const Skills = () => {
                                                     <h3 className="skills__name">{core.name}</h3>
                                                     <div className="skills__number">{core.level}%</div>
                                                 </div>
-                                                {core.level == "100" ?
+                                                {core.level === "100" ?
                                                     <div className="skills__bar">
                                                         <div className="skills__percentage skills__100" />
                                                     </div>
-                                                    : core.level == "90" ?
+                                                    : core.level === "90" ?
                                                         <div className="skills__bar">
                                                             <div className="skills__percentage skills__90" />
                                                         </div>

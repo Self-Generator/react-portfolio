@@ -28,11 +28,6 @@ export const ThemeToggle = () => {
     }
 
     return (
-        <>
-            <i className="uil uil-moon change-theme" id="theme-button" onClick={change} />
-            <div className="nav__toggle" id="nav-toggle">
-                <i className="uil uil-apps" />
-            </div>
-        </>
+        <i className="uil uil-moon change-theme" id="theme-button" onClick={change} />
     )
 }

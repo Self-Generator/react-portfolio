@@ -1,5 +1,6 @@
 {
   "name": "react-app",
+  "homepage": "https://pratikkabade.github.io/react-portfolio/",
   "version": "0.1.0",
   "description": "Built from https://www.github.com/firenudge-io/",
   "private": true,
@@ -12,14 +13,18 @@
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.8",
     "dotenv": "^16.0.3",
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.1",
     "react-scripts": "5.0.1",
     "swiper": "^8.4.5",
     "typescript": "^4.8.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
